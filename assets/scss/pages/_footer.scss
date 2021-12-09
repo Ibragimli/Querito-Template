@@ -1,0 +1,105 @@
+.propertiesbackcolor{
+    background-color: #FF5A3C;
+    width: 1200px;
+    height: 190px;
+    position: relative;
+    top: 94px;
+    left: 0;
+}
+
+.properBtn{
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+    margin-left: 275px;
+    margin-top: 84px;
+}
+
+.properBtn:hover{
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+
+.propertext h1,p{
+    color: white;
+    margin-left: 60px;
+
+}
+.propertext h1{
+    color: white;
+    margin-top: 70px;
+
+}
+#copyright{
+    background-color: #282B38;
+    width: 100%;
+    height: 78px;
+    font-size: 13px;
+}
+
+#termss{
+    list-style: none;
+    justify-content: right;
+    margin-right: 68px;
+}
+#termss li a{
+    text-decoration: none;   
+    color: white;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+#termss li a:hover{
+    color: #FF5A3C;
+    transition: all 0.5s;
+}
+
+.footerrow{
+    --bs-gutter-x: 0rem;
+}
+
+#footerup{
+    background-color: #171b2a;
+    width: 100%;
+    height: 500px;
+    padding: 120px 120px;
+
+}
+
+#infotext{
+    list-style: none;
+    color: white;
+}
+
+#footericon{
+    display: flex;
+    list-style: none;
+}
+
+#footericon li{
+    margin-right: 25px;
+    color: white;
+}
+
+#infotext li{
+    margin-bottom: 10px;
+}
+
+.litextcolor ul li a{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.litextcolor h5{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
