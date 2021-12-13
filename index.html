@@ -150,7 +150,7 @@
         <section id="getaqoute" style="margin-bottom: 200px;">
             <div class="container">
                 <div class="row">
-                    <div class="quote-box">
+                    <div class="mb-5 quote-box">
                         <div class="quote">
                             <div class="h1div">
                                 <h1>Get A Quote</h1>
@@ -194,14 +194,33 @@
                                         <textarea id="textarea" name="message" placeholder="Enter message"></textarea>
                                         <i class="fas fa-pencil-alt" id="icon-5"></i>
                                     </div>
-                                    <label class="input-info-save mb-0"><input type="checkbox" name="agree"> Save my
-                                        name, email, and website in this browser for the next time I comment.</label>
+                                   
+                                    <div class="formDownPart d-flex">
+                                        <div class="leftBtnCheck">
+                                            <label class="input-info-save mb-0"><input type="checkbox" name="agree"> Save my
+                                                name, email, and website in this browser for the next time I comment.</label>
+        
+                                            <div class="btn-wrapper">
+                                                <button class="getBtn btn theme-btn-1 btn-effect-1 text-uppercase">GET A FREE
+                                                    SERVICES</button>
+                                            </div>
+        
+                                        </div>
+                                        <div class="rightImgDrag">
+                                            <div class="imgDragBoxUpload">
 
-                                    <div class="btn-wrapper">
-                                        <button class="getBtn btn theme-btn-1 btn-effect-1 text-uppercase">GET A FREE
-                                            SERVICES</button>
+                                                <div class="uploadAlt col-md-8 mx-auto text-center my-5">
+                                                    <input type="file" multiple  id="fileInput" class="d-none">
+                                                    <i class="fas fa-cloud-upload-alt" id="uploadBtn"></i>
+                                                </div>
+                                                
+                                                <div id="imgDragBox" class="imgDragBox"></div>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
-
+                                    
+                                   
                                 </div>
 
                             </div>
@@ -216,129 +235,280 @@
         </section>
     </main>
 
+
+
     <footer>
-        <section id="properties">
-            <div class="container propertiesbackcolor ">
-                <div class="row">
-
-                    <div class="col-lg-6 propertext">
-                        <h1>Looking for a dream home?</h1>
-                        <p>We can help you realize your dream of a new home</p>
+        <div class="row d-flex footrowxm">
+            <div class="col-3">
+                <div class="contactFooter ps-5">
+                    <div class="title pt-5">
+                        <img style="margin-left: 25px;"
+                            src="https://tunatheme.com/tf/html/quarter-preview/quarter/img/logo-2.png" alt="">
                     </div>
 
-                    <div class="col-lg-6">
-                        <div class="btn-wrapper">
-                            <button class="properBtn btn theme-btn-1 btn-effect-1 text-uppercase">GET A FREE
-                                SERVICES</button>
-                        </div>
+                    <div class="text pt-3">
+                        <p style="margin-left: 0px; padding: 0px 30px;">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Totam dolorem corrupti nam dicta
+                            soluta exercitationem molestiae accusamus ab eligendi.</p>
                     </div>
-                </div>
-            </div>
-        </section>
 
+                    <div class="contactList pt-3">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-map-marker-alt"></i>Brooklyn, New York, United States
+                                </a>
+                            </li>
 
-        <section id="footerup">
-            <div class="row footerrow">
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-phone-volume"></i>+0123-456789
+                                </a>
+                            </li>
 
-                <div class="col-lg-3">
-                    <div class="footimg">
-                        <img class="mb-4" style=" margin-left: 31px;" src="./assets/Images/footer-logo.png" alt="">
-
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-envelope"></i>example@example.com
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <p class="mb-4" style="margin-left: 33px;">Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
-                
-                    <ul id="infotext">
-                        <li><i class="fas fa-map-marker-alt"></i> Brooklyn, New York, United States</li>
-                        <li> <i class="fas fa-phone"></i> +0123-456789</li>
-                        <li><i class="far fa-envelope"></i> example@example.com </li>
-                        
-                    </ul>
 
-                    <ul id="footericon">
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-linkedin"></i></li>
-                        <li><i class="fab fa-youtube"></i></li>
-                    </ul>
-                </div>
+                    <div class="socialMedia pt-4">
+                        <ul class="d-flex pe-3">
+                            <li class="px-2">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
 
+                            <li class="px-2">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
 
-                <div class="col-lg-1 litextcolor ms-4">
-                    <h5>Company</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">About</a></li>
-                    </ul>
-                </div>
+                            <li class="px-2">
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
 
-                <div class="col-lg-2 litextcolor">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">About</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 litextcolor">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 uplitext">About</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 offset-1">
-                    <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of whats new and exciting from us.</p>
-                        <div class="d-flex w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-
-        </section>
-
-        <section id="copyright">
-
-            <div class="container-fluid ltn__border-top-2">
-                <div class="row">
-                    <div class="col-md-6 col-12 mt-4 ">
-                        <div class="ltn__copyright-design ms-5 ">
-                            <p style="font-size: 16px;">
-                                All Rights Reserved @ Company
-                                <span class="current-year">2021</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 mt-4 ">
-                        <div class="ltn__copyright-menu me-5">
-                            <ul id="termss" class="d-flex terms">
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Claim</a></li>
-                                <li><a href="#">Privacy &amp; Policy</a></li>
-                            </ul>
-                        </div>
+                            <li class="px-2">
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <div class="col-2">
+                <div class="company pt-5 ps-3">
+                    <div class="title">
+                        <span>Company</span>
+                    </div>
+
+                    <div class="aboutList">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    About
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Blog
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    All Products
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Locations Map
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="services pt-5 ps-3">
+                    <div class="title">
+                        <span>Services</span>
+                    </div>
+
+                    <div class="serviceList">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Order Tracking
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Wish List
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Login
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    My account
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Promotional Offers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="customer pt-5 ps-3">
+                    <div class="title">
+                        <span>Customer Care</span>
+                    </div>
+
+                    <div class="customerList">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Login
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    My account
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Wish serviceList
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Order Tracking
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3" style="    margin-left:-30px;">
+                <div class="newsLetter pt-5 ps-3">
+                    <div class="title">
+                        <span>Newsletter</span>
+                    </div>
+
+                    <div class="text pt-3 pb-3">
+                        <p>Subscribe to our weekly Newsletter and receive updates via email.
+
+                        </p>
+                    </div>
+
+                    <div class="email">
+                        <form>
+                            <input type="email" placeholder="Email*" required>
+                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        </form>
+                    </div>
+
+                    <div class="secondTitle py-4">
+                        <span>We Accept</span>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://tunatheme.com/tf/html/quarter-preview/quarter/img/icons/payment-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row footerBottom">
+            <div class="col-12 d-flex align-items-center" style="background-color: #282b38; height: 100px;">
+                <div class="col-6">
+                    <span class="ps-5">All Rights Reserved @ Company 2021</span>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Terms & Conditions
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Claim
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Privacy & Policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-
-
-
-
 
 
 
